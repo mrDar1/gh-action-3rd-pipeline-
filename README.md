@@ -96,4 +96,3 @@ src/
   server.ts                  entrypoint
 tests/                       unit + API tests (Jest)
 ```
-# gh-action-3rd-pipeline-
