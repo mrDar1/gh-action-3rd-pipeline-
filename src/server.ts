@@ -5,3 +5,4 @@ createApp().listen(config.port, () => {
   // eslint-disable-next-line no-console
   console.log(`Order Processing Service listening on http://localhost:${config.port}`);
 });
+// check check
