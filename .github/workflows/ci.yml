@@ -11,7 +11,15 @@ on:
         - 'src/**'
         - 'tests/**'
   pull_request:
-
+      branches:
+        - main
+      types:
+        - opened
+        - synchronize
+        - reopened
+      paths:
+        - 'src/**'
+        - 'tests/**'
 jobs:
   lint:
     name: Lint & Typecheck
