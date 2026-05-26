@@ -96,3 +96,4 @@ src/
   server.ts                  entrypoint
 tests/                       unit + API tests (Jest)
 ```
+change readme for check Actions - do not run.
